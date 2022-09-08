@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C3333;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-1 {
+    display: flex;
+    height: 90vmin;
+    aspect-ratio: 9/16;
+    border: 10px solid transparent;
+    background: #dfdfdf;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 0px 0.5em #000;
+    -moz-box-shadow: 0px 0px 0px 0.5em #000;
+    box-shadow: 0px 0px 0px 0.5em #000;
+    flex-direction: column;
+}
+.camera{
+    background: black;
+    width: 2%;
+    align-self: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    justify-self: flex-start;
+}
+
+.groot__container{
+    background-color: transparent;
+    border: 0.2px solid rgba(0,0,0,.1);
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.groot_head{
+    background: linear-gradient(rgb(69,94,40) 10%, rgb(106,81,59) 25%);
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    bottom: 10%;
+    border-radius: 0 0 50% 50%;
+}
+
+.eye1{
+    position: absolute;
+    background-color: #000000;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    top: 30%;
+    left: 20%;
+}
+
+.eye1:before{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    left: 25%;
+    top: 25%;
+}
+.eye1:after{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    right: 25%;
+    bottom: 25%;
+}
+
+.eye2{
+    position: absolute;
+    background-color: #000000;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    top: 30%;
+    right: 20%;
+}
+
+.eye2:before{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    left: 25%;
+    top: 25%;
+}
+.eye2:after{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    right: 25%;
+    bottom: 25%;
+}
+.mouth{
+    background-color: transparent;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 0 0 250% 20%;
+    bottom: 25%;
+    right: 40%;
+    border-bottom: 2px solid #000000;
+    transform: rotate(40deg);
+}
