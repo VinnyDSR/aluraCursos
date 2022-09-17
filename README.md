@@ -1,3 +1,3 @@
 # aluraCursos
 
-[AluraPlus](aluraCursos/HTMLcss/index.html)
+[AluraPlus](HTMLcss/index.html)
