@@ -1,6 +1,8 @@
 header{
     text-align: center;
     padding: 5em 0;
+    margin-bottom: 5em;
+    
 }
 
 h3{
@@ -17,4 +19,8 @@ header > p{
     font-size: 20px;
     width: 791px;
     margin: 0 auto;    
+}
+
+.header__main{
+    padding: 0.7em 0;
 }
