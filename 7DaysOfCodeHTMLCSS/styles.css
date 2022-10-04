@@ -1,0 +1,16 @@
+@import url(css/navbar.css);
+@import url(css/header.css);
+
+:root {
+    --main-white: #FFFFFF;
+    --main-font: 'Inter';
+    --main-font-color: #667085;
+    --main-red: #8E2424;
+    --black:#101828;
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 16px;
+}

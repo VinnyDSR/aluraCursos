@@ -1,0 +1,42 @@
+navbar {
+    background: var(--main-white);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > img {
+    width: 27px;
+    margin-right: 8px;
+}
+
+.list__navbar-item, .list__navbar-regSign-ite, .list__navbar-regSign-item > a, .list__navbar-item > a {
+    text-decoration: none;
+    align-items: center;
+    padding: 0.8em 1em;
+}
+
+.list__navbar-center, .list__navbar-regSign {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.invisible{
+    width: 142px;
+}
+
+.button__signUp{
+    background-color: var(--main-red);
+    border-radius: 10px;
+    color: var(--main-white);
+}
+
+
+

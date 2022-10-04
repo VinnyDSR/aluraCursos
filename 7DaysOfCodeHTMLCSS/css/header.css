@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    padding: 5em 0;
+}
+
+h3{
+    font-weight: 600;
+    color: var(--main-red);
+}
+h2{
+    font-weight: 600;
+    color: var(--black);
+    font-size: 48px;
+    margin: 0.5em;
+}
+header > p{
+    font-size: 20px;
+    width: 791px;
+    margin: 0 auto;    
+}
