@@ -1,17 +1,26 @@
 @import url(css/navbar.css);
 @import url(css/header.css);
-@import url(css/projetos.css);
+@import url(css/metrics.css);
+@import url(css/jobs.css);
+@import url(css/testimony.css);
+@import url(css/footer.css);
+
 :root {
     --main-white: #FFFFFF;
     --main-font: 'Inter';
     --main-font-color: #667085;
     --main-red: #8E2424;
-    --black:#101828;
+    --black: #101828;
+    --gray: rgba(142, 36, 36, 0.05);
+    --gray-200: rgba(187, 188, 190, 0.63);
+    --secondary-white: rgba(196, 25, 25, 0.050);
+    --gray-50: #F9FAFB;
 }
 
-body{
+body {
     font-family: var(--main-font);
     color: var(--main-font-color);
     font-size: 16px;
     line-height: 1.5em;
+    font-weight: 400;
 }

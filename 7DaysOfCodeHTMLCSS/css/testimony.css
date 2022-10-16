@@ -1,0 +1,29 @@
+.testimony {
+	padding: 0 8em 8em 8em;
+	text-align: center;
+}
+
+.testimony__background {
+	background-color: var(--secondary-white);
+	padding: 2.5em;
+}
+
+.testimony__title {
+	font-size: 14px;
+	color: var(--main-red);
+}
+
+.testimony__comment {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1em;
+}
+
+.testimony__name {
+	color: var(--black);
+}
+
+.testimony__job {
+	font-size: 14px;
+	color: var(--gray-200);
+}

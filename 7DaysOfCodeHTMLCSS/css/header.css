@@ -1,26 +1,29 @@
-header{
+header {
     text-align: center;
     padding: 5em 0;
     margin-bottom: 5em;
-    
+
 }
 
-h3{
+.about__us {
     font-weight: 600;
     color: var(--main-red);
 }
-h2{
+
+h2 {
     font-weight: 600;
     color: var(--black);
     font-size: 48px;
     margin: 0.5em;
 }
-header > p{
+
+header>p {
     font-size: 20px;
     width: 791px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    color: var(--gray-200);
 }
 
-.header__main{
+.header__main {
     padding: 0.7em 0;
 }

@@ -1,0 +1,42 @@
+.footer {
+	background-color: var(--gray-50);
+	text-align: center;
+	padding: 2em;
+}
+
+.footer__title {
+	font-size: 36px;
+	margin-top: 1em;
+}
+
+.footer__text {
+	margin-bottom: 1em;
+	margin: 1em 0 2em 0;
+	color: var(--gray-200);
+	font-size: 20px;
+}
+
+.footer__input {
+	border-color: var(--gray);
+	padding: 0.7em;
+	border-radius: 10px;
+	width: 15%;
+}
+
+.footer__input::placeholder {
+	color: var(--gray-200);
+}
+
+.footer__button {
+	color: var(--main-white);
+	background-color: var(--main-red);
+	border-color: transparent;
+	padding: 0.7em;
+	border-radius: 5px;
+}
+
+.footer__copyright {
+	color: var(--gray-200);
+	font-size: 14px;
+	margin-top: 1em;
+}
